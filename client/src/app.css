@@ -28,7 +28,10 @@ a {
   /* color: black; */
   text-shadow: -0.15px -0.15px 0 transparent, 0.15px 0.15px transparent;
   margin: 0 4px;
+  transition: 0.2s all;
 }
 a:hover {
   text-shadow: -0.15px -0.15px 0 black, 0.15px 0.15px black;
+  color: rgb(87, 141, 192);
+  transition: 0.2s all;
 }
