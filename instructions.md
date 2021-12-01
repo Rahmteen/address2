@@ -20,8 +20,7 @@ Include:
     ● A README file that contains:
     ○ Deployment / running instructions. Assume that we’re running this on a Mac.
 
-  Bonus points if instructions are for deployments to a distributed cloud
-  infrastructure
+
 
     ○ A summary of the assignment
     ■ Your overall approach
@@ -37,6 +36,9 @@ Include:
     ○ Has no debug logging, TODOs, or FIXMEs
     ○ Has test coverage to ensure quality and safety
   
+
+   Bonus points if instructions are for deployments to a distributed cloud
+  infrastructure
   What we look for
     ● Clean code. Style we’re looking for: concise but descriptive.
     ● Enough functionality or code to show us your understanding of fundamental
