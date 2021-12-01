@@ -109,9 +109,8 @@ const App = () => {
             />
           )}
         />
-        <Route component={NotFound} />
+        <Route path='*' component={NotFound} />
       </Switch>
-      {/* <Route path='/' component={Footer}></Route> */}
     </Fragment>
   );
 };

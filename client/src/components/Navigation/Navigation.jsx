@@ -16,9 +16,9 @@ const Navigation = () => {
 				<Navbar.Collapse id="responsive-navbar-nav">
 					<Nav className="ml-auto">
 						<Nav.Item as={Link} to="/addcontact" style={{ textDecoration: "none" }}>
-							<small>
-								Add New Contact <i className="fas fa-plus ml-2"></i>
-							</small>
+							{/* <small> */}
+								Add New Contact<i className="fas fa-plus ml-2"></i>
+							{/* </small> */}
 						</Nav.Item>
 						<Nav.Item>
 							{/* <i class="fas fa-search"></i> */}

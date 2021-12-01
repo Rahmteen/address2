@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { v4 as uuidv4 } from "uuid";
-const fetch = require("node-fetch");
+
 
 // COMPONENTS
 import UserTable from "../../components/UserTable";
@@ -34,7 +34,7 @@ const Landing = ({ people, sortPeople, setContactToEdit, sortType, sortTypeToggl
 				</Col>
 				<Col md={12}>
 					<div style={{ textAlign: "center" }}>
-						<input
+						<input className='searchBar'
 							onChange={(e) => {
 								setSearchInput(e.target.value);
 							}}

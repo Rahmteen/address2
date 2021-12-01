@@ -11,15 +11,15 @@ describe('User Table Item (Unit)', () => {
 
     describe('render()', () => {
         const { asFragment } = renderUserTableItem();
-        test('should match snapshot', () => {
+        it('should match snapshot', () => {
             expect(asFragment()).toMatchSnapshot();
         });
     });
 
     describe('User Table edge cases + undefined values', () => {
-        test('should render an error message when given no input values', () => {
+        it('should render an error message when given no input values', () => {
             renderEmptyUserTableItem()
-            expect(screen.getByText("no users found!")).toBeInTheDocument();
+            expect(screen.getByText("Searching for users...")).toBeInTheDocument();
         });
     });
 });

@@ -60,7 +60,7 @@ const UserTableItem = ({ people, setContactToEdit, searchInput }) => {
 					);
 				})
 			) : (
-				<div>no users found!</div>
+				<div>Searching for users...</div>
 			)}
 		</Fragment>
 	);
