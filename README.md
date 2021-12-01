@@ -48,10 +48,13 @@ This assignment left a lot of room for choices. My first decision was to figure 
 
 As a general rule I prefer simple and elegant solutions but there is always a trade off... When choosing how to handle state in this application, I considered a few options:
 
+
 - First I thought of Redux. I appreciate it's predictability and single source of truth(redux store) when ditributing state globally. But it's complexity/setup seemed like overkill for this app.
-- Next I considered using Context api(w/ hooks). Context, can distribute state glabally, and it's far simpler than redux, but then I started consider whether I even needed to distribute state globally to begin with...
+- Next I considered using Context api(w/ hooks). Context, can distribute state glabally, and it's far simpler than redux, but then I started consider... Do I need to distribute state globally? 
+  
 - Finally I considered manually drilling the props. Prop drilling is great for small apps, but it is limited because props can only be passed down through parent components. I prefer prop dilling as long as the props dont need to be drilled down more than 3 levels of components.
-- I considerd the structure of the application. The fact that the app has no backend or database to connect to. I saw no real need for global state distrobution in an app this size. So in this case, I felt that prop drilling was the most appropriate and mature choice.
+  
+- I considerd the potential structure of the application as well as the fact that the app has no backend or database to connect to. I saw no real need for global state distrobution, in an app that this size. So in this case, I felt that prop drilling would be the most appropriate and mature choice.
 
 
 
