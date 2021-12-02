@@ -74,6 +74,36 @@
 </br>
 
 # Approach
+My initial approach to building this app was to consider the main features that I wanted to implement.
+I knew I wanted to include:
+- Landing page 
+- Details page (ideally with ability to edit and delete users)
+- Add contact page 
+  
+  Next I considered the user experience started thinking about the user experience, and I decided that search functionality and/or  the ability to sort users would potentially be important.
+
+  I drew up a sketch design for what the main app would look like.
+
+  After that, I made a quick wire frame for how I wanted to design the Hierarchy for app's components.
+  At that point, I was able to see what consider my options for state management. 
+
+  I then built out a super stripped skeleton of the app, and wrote a couple very of basic snapshot tests with Jest/React-testing-library to save time. This helped to make sure that each component was rendering properly as I built each one of them out further.
+
+  The component I wanted to start with, was the Landing page which is where I would be requesting my data. Once I built out that component, and worked my way to the UserTableItem component where is where displayed each individual contact. From there, I built one component at a time. Of course I was being mindful of state throughout this process. I was asking things like:
+
+  - Does the reality of what I've built match my wire frame? What deviations are necessary? Why?
+  - Is this the component located in best place for this application? 
+  - What other features might be necessary in this component?
+  - Where should I be storing state for this component?
+  - Is the state that's being used in this component going to be needed by other components? If so,   which ones? How will it get there?
+  - How am I going to layout/style this component?
+  
+  I moved my from component to component the app's functionality was built out.
+  Lastly, I added more tests to increase the app's reliability.
+  
+
+
+
 
 ## overall approach
 
